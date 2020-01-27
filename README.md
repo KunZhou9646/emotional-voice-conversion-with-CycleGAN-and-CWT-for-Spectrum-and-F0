@@ -1,2 +1,2 @@
-# Parallel-data-free-emotional-voice-conversion-with-cyclegan-and-cwt
+# Transforming Spectrum and Prosody for Emotional Voice Conversion with Non-Parallel Training Data
 
