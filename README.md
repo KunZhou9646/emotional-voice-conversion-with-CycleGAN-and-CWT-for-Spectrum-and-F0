@@ -31,7 +31,7 @@ sprocket-vc
 
 scipy
 
-global
+glob
 
 # Usage
 
