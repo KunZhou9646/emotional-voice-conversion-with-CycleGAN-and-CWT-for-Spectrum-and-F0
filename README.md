@@ -8,6 +8,7 @@ Notes:
 The codes are based on CycleGAN Voice Conversion: https://github.com/leimao/Voice_Converter_CycleGAN
 
 # Dependencies
+
 Python 3.5
 Numpy 1.14
 Tensorflow 1.8
