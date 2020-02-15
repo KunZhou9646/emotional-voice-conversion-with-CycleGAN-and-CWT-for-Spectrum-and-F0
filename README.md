@@ -27,6 +27,12 @@ sklearn
 
 pycwt
 
+sprocket-vc
+
+scipy
+
+global
+
 # Usage
 
 1. train.py
