@@ -7,6 +7,10 @@ National University of Singapore
 Notes: 
 The codes are based on CycleGAN Voice Conversion: https://github.com/leimao/Voice_Converter_CycleGAN
 
+If you are using our codes, please kindly cite our paper:
+
+Kun  Zhou,  Berrak  Sisman,  and  Haizhou  Li,“Transformingspectrum and prosody for emotional voice conversion with non-parallel training data,”arXiv preprint arXiv:2002.00198, 2020.
+
 # Dependencies
 
 Python 3.5
