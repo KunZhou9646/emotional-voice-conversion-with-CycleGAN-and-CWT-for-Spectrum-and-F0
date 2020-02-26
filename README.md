@@ -9,7 +9,7 @@ The codes are based on CycleGAN Voice Conversion: https://github.com/leimao/Voic
 
 If you are using our codes, please kindly cite our paper:
 
-Kun  Zhou,  Berrak  Sisman,  and  Haizhou  Li,“Transformingspectrum and prosody for emotional voice conversion with non-parallel training data,”arXiv preprint arXiv:2002.00198, 2020.
+Kun  Zhou,  Berrak  Sisman,  and  Haizhou  Li,“Transforming spectrum and prosody for emotional voice conversion with non-parallel training data,” arXiv preprint arXiv:2002.00198, 2020.
 
 # Dependencies
 
