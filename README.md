@@ -7,9 +7,18 @@ National University of Singapore
 Notes: 
 The codes are based on CycleGAN Voice Conversion: https://github.com/leimao/Voice_Converter_CycleGAN
 
-If you are using our codes, please kindly cite our paper:
+Please kindly cite our paper if you are using our codes:
 
 Kun  Zhou,  Berrak  Sisman,  and  Haizhou  Li,“Transforming spectrum and prosody for emotional voice conversion with non-parallel training data,” arXiv preprint arXiv:2002.00198, 2020.
+
+Bibtex:
+@article{zhou2020transforming,
+  title={Transforming Spectrum and Prosody for Emotional Voice Conversion with Non-Parallel Training Data},
+  author={Zhou, Kun and Sisman, Berrak and Li, Haizhou},
+  journal={arXiv preprint arXiv:2002.00198},
+  year={2020}
+}
+
 
 # Dependencies
 
