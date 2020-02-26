@@ -13,9 +13,13 @@ Kun  Zhou,  Berrak  Sisman,  and  Haizhou  Li,“Transforming spectrum and proso
 
 Bibtex:
 @article{zhou2020transforming,
+
   title={Transforming Spectrum and Prosody for Emotional Voice Conversion with Non-Parallel Training Data},
+  
   author={Zhou, Kun and Sisman, Berrak and Li, Haizhou},
+  
   journal={arXiv preprint arXiv:2002.00198},
+  
   year={2020}
 }
 
