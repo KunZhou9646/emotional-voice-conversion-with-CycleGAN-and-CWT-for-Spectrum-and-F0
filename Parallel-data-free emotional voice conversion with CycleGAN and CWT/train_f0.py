@@ -81,7 +81,7 @@ def train(train_A_dir, train_B_dir, model_dir, model_name, random_seed, validati
     print('Time Elapsed for Data Preprocessing: %02d:%02d:%02d' % (time_elapsed // 3600, (time_elapsed % 3600 // 60), (time_elapsed % 60 // 1)))
     
     num_feats = 10 #34
-    #model = CycleGAN(num_features = num_feats)
+    model = CycleGAN(num_features = num_feats)
     #model.load('./model/neutral2anger_f0/neutral2anger_f0.ckpt')
     #print('model restored')
 
