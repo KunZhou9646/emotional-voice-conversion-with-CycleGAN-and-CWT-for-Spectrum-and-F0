@@ -171,5 +171,5 @@ class CycleGAN(object):
 
 if __name__ == '__main__':
     tf.reset_default_graph()
-    model = CycleGAN(num_features = 5)
+    model = CycleGAN(num_features = 10)
     print('Graph Compile Successeded.')
