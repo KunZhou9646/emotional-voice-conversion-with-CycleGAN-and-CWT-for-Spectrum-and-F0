@@ -1,12 +1,5 @@
 # Transforming Spectrum and Prosody for Emotional Voice Conversion with Non-Parallel Training Data
 
-Kun Zhou
-
-National University of Singapore
-
-Notes: 
-The codes are based on CycleGAN Voice Conversion: https://github.com/leimao/Voice_Converter_CycleGAN
-
 Please kindly cite our paper if you are using our codes:
 
 Kun  Zhou,  Berrak  Sisman,  and  Haizhou  Li,“Transforming spectrum and prosody for emotional voice conversion with non-parallel training data,” arXiv preprint arXiv:2002.00198, 2020.
@@ -75,7 +68,8 @@ This script provides the metrics (MCD, RMSE and PCC) for evaluation.
 
 4. $ python evaluation.py --source_data_dir './converted_voices_neutral_to_surprise_separate' --target_data_dir './Results/References/SURPRISE'
 
-
+Notes: 
+The codes are based on CycleGAN Voice Conversion: https://github.com/leimao/Voice_Converter_CycleGAN
 
 
 
