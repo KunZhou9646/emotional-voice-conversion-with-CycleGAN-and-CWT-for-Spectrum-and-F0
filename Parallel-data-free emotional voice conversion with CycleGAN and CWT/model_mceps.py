@@ -30,7 +30,7 @@ class CycleGAN(object):
             self.generator_summaries, self.discriminator_summaries = self.summary()
 
     def build_model(self):
-
+        tf.reset_default_graph()
         # Placeholders for real training samples
         self.input_A_real = tf.placeholder(tf.float32, shape = self.input_shape, name = 'input_A_real')
         self.input_B_real = tf.placeholder(tf.float32, shape = self.input_shape, name = 'input_B_real')
