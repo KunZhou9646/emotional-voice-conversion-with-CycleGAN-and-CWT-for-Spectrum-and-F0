@@ -79,7 +79,7 @@ def conversion(model_f0_dir, model_f0_name, model_mceps_dir, model_mceps_name, d
 
             #lf0 = feats_converted_norm[24:].T #[470,10]
 
-            lf0_cwt_denormalize = denormalize(lf0, mean, std)#[470,10]
+            lf0_cwt_denormalize = denormalize(lf0.T, mean, std)#[470,10]
             #np.save('./lf0_denorm',lf0_cwt_denormalize)
             lf0_rec = inverse_cwt(lf0_cwt_denormalize,scales)#[470,1]
             #lf0_rec_norm = preprocessing.scale(lf0_rec)
