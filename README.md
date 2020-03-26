@@ -5,7 +5,7 @@
 *Kun  Zhou,  Berrak  Sisman,  and  Haizhou  Li,“Transforming spectrum and prosody for emotional voice conversion with non-parallel training data,” arXiv preprint arXiv:2002.00198, 2020.*
 
 **Bibtex:**
-```python
+```
 @article{zhou2020transforming, 
   title={Transforming Spectrum and Prosody for Emotional Voice Conversion with Non-Parallel Training Data},
   author={Zhou, Kun and Sisman, Berrak and Li, Haizhou},
@@ -61,23 +61,23 @@ This script provides the metrics (MCD, RMSE and PCC) for evaluation.
 
 # Instruction
 
-1. To train CycleGAN with spectrum features, please run the code:</br>
+1. **To train CycleGAN with spectrum features, please run the code:**</br>
 ```Bash
 $ python train.py --train_A_dir './data/training/NEUTRAL(PATH TO SOURCE TRAINING DATA)' --train_B_dir './data/training/SURPRISE(PATH TO TARGET TRAINING DATA)' --model_dir_default = './model/neutral_to_suprise_mceps' --model_name 'neutral_to_suprise_mceps.ckpt' --random_seed 0 --validation_A_dir './data/evaluation_all/NEUTRAL' --validation_B_dir './data/evaluation_all/SURPRISE' --output_dir './validation_output' --tensorboard_log_dir './log'
 ```
 
-2. To train CycleGAM with CWT-F0 features, please run the code: 
+2. **To train CycleGAM with CWT-F0 features, please run the code:** 
 ```Bash
 $ python train_f0.py --train_A_dir './data/training/NEUTRAL(PATH TO SOURCE TRAINING DATA)' --train_B_dir './data/training/SURPRISE(PATH TO TARGET TRAINING DATA)' --model_dir_default = './model/neutral_to_suprise_f0' --model_name 'neutral_to_suprise_f0.ckpt' --random_seed 0 --validation_A_dir './data/evaluation_all/NEUTRAL' --validation_B_dir './data/evaluation_all/SURPRISE' --output_dir './validation_output' --tensorboard_log_dir './log' 
 ```
 
-3. To convert the emotion from the source to the target, please run the code:
+3. **To convert the emotion from the source to the target, please run the code:**
 ```Bash
 $ python convert_separately.py --model_f0_dir './model/neutral_to_surprise_f0' --model_f0_name 'neutral_to_surprise_f0.ckpt' --model_mceps_dir './model/neutral_to_surprise_mceps' --model_mceps_name 'neutral_to_surprise_mceps.ckpt' --data_dir './data/evaluation_all/NEUTRAL(PATH TO EVALUATION DATA)' --conversion_direction 'A2B' --output_dir './converted_voices_neutral_to_surprise_separate'
 ```
 
 
-Notes: 
+**Notes:** 
 The codes are based on CycleGAN Voice Conversion: https://github.com/leimao/Voice_Converter_CycleGAN
 
 
