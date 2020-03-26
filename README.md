@@ -5,40 +5,39 @@ Please kindly cite our paper if you are using our codes:
 Kun  Zhou,  Berrak  Sisman,  and  Haizhou  Li,“Transforming spectrum and prosody for emotional voice conversion with non-parallel training data,” arXiv preprint arXiv:2002.00198, 2020.
 
 Bibtex:
-`
+
 @article{zhou2020transforming, <br>
   title={Transforming Spectrum and Prosody for Emotional Voice Conversion with Non-Parallel Training Data},<br>
   author={Zhou, Kun and Sisman, Berrak and Li, Haizhou},<br>
   journal={arXiv preprint arXiv:2002.00198},<br>
   year={2020}<br>
 }
-`
 
 # Dependencies
 
-Python 3.5
+  Python 3.5
 
-Numpy 1.14
+  Numpy 1.14
 
-Tensorflow 1.8
+  Tensorflow 1.8
 
-ProgressBar2 3.37.1
+  ProgressBar2 3.37.1
 
-LibROSA 0.6
+  LibROSA 0.6
 
-FFmpeg 4.0
+  FFmpeg 4.0
 
-PyWorld
+  PyWorld
 
-sklearn
+  sklearn
 
-pycwt
+  pycwt
 
-sprocket-vc
+  sprocket-vc
 
-scipy
+  scipy
 
-glob
+  glob
 
 # Usage
 
