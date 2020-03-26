@@ -40,7 +40,8 @@ Dependencies
 
   `glob`
 
-# Usage
+Usage
+---------
 
 1. `train.py`
 
