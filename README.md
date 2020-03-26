@@ -15,9 +15,9 @@ Bibtex:
 
 # Dependencies
 
-  Python 3.5
+  `Python 3.5`
 
-  Numpy 1.14
+ `Numpy 1.14`
 
   Tensorflow 1.8
 
