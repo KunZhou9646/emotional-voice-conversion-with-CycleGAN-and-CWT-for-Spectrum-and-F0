@@ -13,7 +13,8 @@ Bibtex:
   year={2020}<br>
 }
 
-# Dependencies
+Dependencies
+-------
 
   `Python 3.5`
 
