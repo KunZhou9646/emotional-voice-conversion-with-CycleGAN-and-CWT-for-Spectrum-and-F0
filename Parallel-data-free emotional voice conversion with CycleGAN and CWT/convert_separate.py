@@ -119,7 +119,7 @@ def conversion(model_f0_dir, model_f0_name, model_mceps_dir, model_mceps_name, d
 
 
 if __name__ == '__main__':
-    os.environ['CUDA_VISIBLE_DEVICES']='2'
+    #os.environ['CUDA_VISIBLE_DEVICES']='2'
     parser = argparse.ArgumentParser(description = 'Convert voices using pre-trained CycleGAN model.')
 
     model_f0_dir_default = './model/neutral_to_surprise_f0'
