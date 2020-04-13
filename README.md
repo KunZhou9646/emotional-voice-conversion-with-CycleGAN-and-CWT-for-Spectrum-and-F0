@@ -82,5 +82,5 @@ $ python convert_separately.py --model_f0_dir './model/neutral_to_surprise_f0' -
 The codes are based on CycleGAN Voice Conversion: https://github.com/leimao/Voice_Converter_CycleGAN
 
 **Note2:** 
-The codes can easily be used for traditional parallel data free voice conversion. You just need to change the training data to VCC2016 or VCC2018 (both publicly available) and the run the scripts. You can perform spectrum and CWT-based F0 conversion. 
+The codes can easily be used for traditional parallel data free voice conversion (speaker identity conversion). You just need to change the training data to VCC2016 or VCC2018 (both publicly available) and the run the scripts. You can perform spectrum and CWT-based F0 conversion. 
 
