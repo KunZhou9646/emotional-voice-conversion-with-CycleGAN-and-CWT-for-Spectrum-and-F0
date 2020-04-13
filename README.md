@@ -1,7 +1,7 @@
 # Transforming Spectrum and Prosody for Emotional Voice Conversion with Non-Parallel Training Data
 
-**Please kindly cite our paper if you are using our codes:**
-
+**This is an implementation of our Cycle-GAN based emotional voice conversion framework (to be appear in Speaker Odyssey 2020) that converts both spectrum and prosody features. Please kindly cite our paper if you are using our codes:**
+ 
 *Kun  Zhou,  Berrak  Sisman,  and  Haizhou  Li,“Transforming spectrum and prosody for emotional voice conversion with non-parallel training data,” arXiv preprint arXiv:2002.00198, 2020* ***(accepted by Speaker Odyssey 2020 in Tokyo, Japan).***
 
 **Bibtex:**
