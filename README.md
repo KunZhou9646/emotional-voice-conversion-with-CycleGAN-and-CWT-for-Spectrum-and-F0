@@ -56,9 +56,6 @@ This script is to perform CWT on F0, then train CycleGAN with CWT-F0 features.
 
 This script is to convert speech from the source using trained CycleGAN to convert spectrum and CWT-F0 features separately.
 
-4. `evaluation.py`
-
-This script provides the metrics (MCD, RMSE and PCC) for evaluation.
 
 # Instruction
 
