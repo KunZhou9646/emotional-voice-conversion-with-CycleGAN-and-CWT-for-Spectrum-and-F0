@@ -21,7 +21,7 @@ Dependencies
 
   `Numpy 1.14`
 
-  `Tensorflow 1.`
+  `Tensorflow 1.8`
 
   `ProgressBar2 3.37.1`
 
