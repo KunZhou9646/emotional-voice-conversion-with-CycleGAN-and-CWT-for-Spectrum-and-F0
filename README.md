@@ -61,12 +61,12 @@ This script is to convert speech from the source using trained CycleGAN to conve
 
 1. **To train CycleGAN with spectrum features, please run the code:**</br>
 ```Bash
-$ python train.py --train_A_dir './data/training/NEUTRAL(PATH TO SOURCE TRAINING DATA)' --train_B_dir './data/training/SURPRISE(PATH TO TARGET TRAINING DATA)' --model_dir_default = './model/neutral_to_suprise_mceps' --model_name 'neutral_to_suprise_mceps.ckpt' --random_seed 0 --validation_A_dir './data/evaluation_all/NEUTRAL' --validation_B_dir './data/evaluation_all/SURPRISE' --output_dir './validation_output' --tensorboard_log_dir './log'
+$ python train.py --train_A_dir './data/training/NEUTRAL(PATH TO SOURCE TRAINING DATA)' --train_B_dir './data/training/SURPRISE(PATH TO TARGET TRAINING DATA)' --model_dir = './model/neutral_to_suprise_mceps' --model_name 'neutral_to_suprise_mceps.ckpt' --random_seed 0 --validation_A_dir './data/evaluation_all/NEUTRAL' --validation_B_dir './data/evaluation_all/SURPRISE' --output_dir './validation_output' --tensorboard_log_dir './log'
 ```
 
 2. **To train CycleGAN with CWT-F0 features, please run the code:** 
 ```Bash
-$ python train_f0.py --train_A_dir './data/training/NEUTRAL(PATH TO SOURCE TRAINING DATA)' --train_B_dir './data/training/SURPRISE(PATH TO TARGET TRAINING DATA)' --model_dir_default = './model/neutral_to_suprise_f0' --model_name 'neutral_to_suprise_f0.ckpt' --random_seed 0 --validation_A_dir './data/evaluation_all/NEUTRAL' --validation_B_dir './data/evaluation_all/SURPRISE' --output_dir './validation_output' --tensorboard_log_dir './log' 
+$ python train_f0.py --train_A_dir './data/training/NEUTRAL(PATH TO SOURCE TRAINING DATA)' --train_B_dir './data/training/SURPRISE(PATH TO TARGET TRAINING DATA)' --model_dir = './model/neutral_to_suprise_f0' --model_name 'neutral_to_suprise_f0.ckpt' --random_seed 0 --validation_A_dir './data/evaluation_all/NEUTRAL' --validation_B_dir './data/evaluation_all/SURPRISE' --output_dir './validation_output' --tensorboard_log_dir './log' 
 ```
 
 3. **To convert the emotion from the source to the target, please run the code:**
